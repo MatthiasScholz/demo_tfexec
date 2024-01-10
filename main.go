@@ -8,11 +8,11 @@ import (
 	"os"
 	"time"
 
+	"Github.com/hashicorp/terraform-json"
 	version "github.com/hashicorp/go-version"
 	"github.com/hashicorp/hc-install/product"
 	"github.com/hashicorp/hc-install/releases"
 	"github.com/hashicorp/terraform-exec/tfexec"
-	"github.com/hashicorp/terraform-json"
 
 	"github.com/hackebrot/go-repr/repr"
 )
